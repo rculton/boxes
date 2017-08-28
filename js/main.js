@@ -5,7 +5,7 @@ function sayHello(name){
 }
 
 function setH1(string){
-    var h1 = document.querySelector('h1')
+    var h1 = document.querySelector('h1')[1]
     h1.innerText = string
 
 }
